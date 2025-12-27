@@ -24,4 +24,4 @@ The module 'Random' is used in this to select the random values and to choose an
 
 # Project idea
 <Br>
-To make this game more digital and further we will make it's application.
+To make this game more digital and further we will make it's application. so that user can play easily this game by help of intracting with buttons and more i.e. GUI interface.
