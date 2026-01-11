@@ -52,3 +52,7 @@ else:
 
     else: 
         print("Something went worng")
+
+
+print("Game is completed ✅ Run again the code to play again")
+print("Thanks to play our game 🎮")
