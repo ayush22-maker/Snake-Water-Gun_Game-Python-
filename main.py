@@ -56,3 +56,7 @@ else:
 
 print("Game is completed ✅. Run again the code to play again")
 print("Thanks to play our game 🎮")
+
+name = input("Enterprises your name: ")
+feedback = input("Give your feedback please: ")
+
