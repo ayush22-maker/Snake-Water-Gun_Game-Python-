@@ -57,8 +57,11 @@ else:
 print("Game is completed ✅. Run again the code to play again")
 print("Thanks to play our game 🎮")
 
-name = input("Enter your name please: ")
-feedback = input("Give your feedback please: ")
-
 # Write feedback in a file 
+class Feedback:
+    name = input("Enter your name please: ")
+    feedback = input("Give your feedback please: ")
 
+f = open(f"{Feedback.name}_feedback.txt", "w")
+f.write(f"Name: {Feedback.name}\nFeedback: {Feedback.feedback}")
+f.close()
