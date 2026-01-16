@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            background-image: linear-gradient(to left, purple, blue);
+        }
+
+        header nav ul li {
+            list-style: none;
+            display: inline;
+            margin: 10px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .Feedback-button-header {
+            position: absolute;
+            top: 20px;
+        }
+
+        .hr {
+            width: 70%;
+            background-image: linear-gradient(to left, purple, blue);
+            border: none;
+            padding: 2px;
+        }
+
+        .Error {
+            text-align: center;
+            background-image: linear-gradient(to left, purple, blue);
+        }
+
+        .github-link img {
+            border-radius: 100%;
+            display: block;
+        }
+
+
+
+        .github-link {
+            display: inline-flex;
+            gap: 10px;
+            align-items: center;
+            padding: 10px;
+            justify-content: center;
+            position: relative;
+            left: 450px;
+
+        }
+
+        .Write-Text-link-Github {
+            flex: 1;
+            z-index: 0;
+            min-width: 50px;
+            position: relative;
+            right: -21px;
+        }
+
+        .image {
+            flex: 0;
+            z-index: 1;
+            min-width: 50px;
+        }
+
+        .Write-Text-link-Github,
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+
+        .Write-Text-link-Github h3 {
+            background-color: white;
+            width: fit-content;
+            padding: 30px;
+            border-radius: 10%;
+        }
+
+        .Write-Text-link-Github a {
+            color: Black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .github-link .image img {
+            height: 70px;
+            width: auto;
+        }
+
+        .github-link .image img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+            /* Border glow effect */
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="Images/icons8-back-50.png" alt="back"></a></li>
+                <li class="Feedback-button-header"><a href="FeedBack.html">FeedBack</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr class="hr">
+    <main>
+        <div class="Error">
+            <h1>Sorry, unfortunately we are not able to provide you <i>Instruction </i>directly</h1>
+            <h3>To see instructions please go to my GitHub accounct by clicking below link &darr;</h3>
+        </div>
+        <hr class="hr">
+        <section class="github-link">
+            <div class="image">
+                <a href="https://github.com/ayush22-maker/Snake-Water-Gun_Game-Python-/blob/main/README.md"
+                    target="_blank"><img src="/Snake-Water-Gun_Game-Python-/Images/icons8-github.gif"
+                        alt="GitHub GIF"></a>
+            </div>
+            <div class="Write-Text-link-Github">
+                <h3><a href="https://github.com/ayush22-maker/Snake-Water-Gun_Game-Python-/blob/main/README.md">ayush22-maker
+                        GitHub</a></h3>
+            </div>
+            </div>
+
+    </main>
+</body>
+
+</html>
